@@ -1,0 +1,30 @@
+.coinwrap {
+
+        display: flex;
+        height: 100vh;
+        /* background-color: green; */
+        /* flex-direction: column; */
+
+
+}
+
+#chart {
+        z-index: -1;
+
+}
+
+@media only screen and (max-width: 768px) {
+        .coinwrap {
+                flex-direction: column;
+                height: auto;
+
+        }
+
+
+        #buysellitems {
+                flex-direction: column;
+
+        }
+}
+
+#buysellitems {}

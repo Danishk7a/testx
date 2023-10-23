@@ -1,0 +1,22 @@
+.hoverClass {
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hoverClass:hover {
+
+    background-color: #cfcfcf52;
+}
+
+.hoverClassLogout {
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+}
+
+.hoverClassLogout:hover {
+
+    color: #db3434;
+    background-color: #cfcfcf52;
+}

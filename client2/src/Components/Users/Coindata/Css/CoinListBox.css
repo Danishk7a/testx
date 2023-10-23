@@ -1,0 +1,34 @@
+.coinlistbox{
+   
+    background-color: #171B26; 
+     width: 20%;
+     border-bottom: 1px solid #363c4e ;
+     border-right: 1px solid #363c4e;
+     overflow: scroll;
+     overflow-x: hidden;
+    
+  
+
+
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #171B26;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #131722;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1B202E;
+  }

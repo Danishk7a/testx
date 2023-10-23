@@ -1,0 +1,14 @@
+.positive {
+    color: green;
+  }
+  
+  .negative {
+    color: red;
+  }
+  
+  #listbox{
+
+    width: 25%;
+
+
+  }

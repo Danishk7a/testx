@@ -1,0 +1,17 @@
+.sidebarlogo {
+
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+
+#menu {
+
+    height: 100vh;
+    display: flex;
+
+
+    flex-direction: column;
+}

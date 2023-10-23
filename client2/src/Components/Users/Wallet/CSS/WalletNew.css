@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: aquamarine; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Wallet {
+
+    /* background-color: black; */
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    border-radius: 23px;
+
+}
+
+#walletBox {
+
+    background-color: #ffffff;
+    padding: 10px;
+   
+    width: 30%;
+    /* height: 40vh; */
+
+}
+
+#walletRow {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+
+}
+
+#img {}
+
+#secondBox {
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#symbol {
+
+    font-size: 25px;
+
+}
+
+#name {
+
+    font-size: 13px;
+}
+
+#thirdbox {
+
+    display: flex;
+    /* flex-grow: 2; */
+    /* background-color: aqua; */
+    flex-direction: column;
+
+}
+
+#quantity {
+
+    font-size: 25px;
+}
+
+#price {
+
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#walletsidebox {
+
+    width: 70%;
+    background-color: #f2f2f2;
+
+}

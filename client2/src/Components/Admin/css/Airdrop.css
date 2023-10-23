@@ -1,0 +1,21 @@
+#Airdrop{
+
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#btn{
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+   
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+
+
+}

@@ -1,0 +1,261 @@
+/* .coinwrap {
+
+        display: flex;
+        height: 100vh;
+
+
+
+}
+
+#chart {
+        z-index: -1;
+
+}
+
+@media only screen and (max-width: 768px) {
+        .coinwrap {
+                flex-direction: column;
+                height: auto;
+
+        }
+
+
+        #buysellitems {
+                flex-direction: column;
+
+        }
+} */
+
+
+* {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+
+}
+
+input[type=number],
+select,
+textarea {
+        width: 100%;
+        /* padding: 12px; */
+        padding-bottom: 6px;
+        padding-top: 6px;
+        padding-left: 8px;
+        border: 1px solid #e7e7e7;
+        /* border-radius: 4px; */
+        border-top-left-radius: 4px;
+        /* Adjust the value as needed */
+        border-bottom-left-radius: 4px;
+        resize: vertical;
+        /* text-align: right; */
+        outline: none;
+        /* padding-ri: ; */
+        box-shadow: none;
+
+}
+
+#tradeBtn {
+
+        padding: 12px;
+        background-color: #26DE81;
+        width: 100%;
+        border: none;
+        border-radius: 4px;
+        color: white;
+
+}
+
+#tradeBtn2 {
+
+        padding: 12px;
+        background-color: #FF231F;
+        width: 100%;
+        border: none;
+        color: white;
+        border-radius: 4px;
+
+}
+
+header {
+        height: 40%;
+        background-color: #e7e7e7;
+
+}
+
+#trade {
+
+        display: flex;
+        height: 100vh;
+        padding: 10px;
+        gap: 10px;
+}
+
+
+#first {
+        height: 90%;
+        /* background-color: white; */
+        width: 25%;
+        /* border: 1px solid #e7e7e7; */
+
+}
+
+#second {
+
+        height: 100%;
+        /* background-color: white; */
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        /* gap: 10px; */
+
+}
+
+
+#third {
+
+        height: 90%;
+        /* background-color: white; */
+        width: 25%;
+        /* border: 1px solid #e7e7e7; */
+
+
+}
+
+#chartBox {
+        height: 60%;
+}
+
+
+
+#chart {
+
+        height: 40%;
+        /* background-color: white; */
+        border: 1px solid #e7e7e7;
+}
+
+#MarketMenu {
+
+        display: flex;
+        /* gap: 20px; */
+        padding-left: 5px;
+}
+
+#market {
+
+        height: 50%;
+        /* background-color: rgb(210, 60, 60); */
+        display: flex;
+        /* flex-direction: row; */
+        /* border: 1px solid #e7e7e7; */
+        /* border: 10px solid purple; */
+}
+
+#buy {
+
+        /* background-color: white; */
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-right: 1px solid #e7e7e7;
+}
+
+#sell {
+        width: 100%;
+        /* background-color: white; */
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+
+#sidesymbol {
+        padding: 8px;
+        background-color: #EFF2F6;
+        border-top-right-radius: 4px;
+        /* Adjust the value as needed */
+        border-bottom-right-radius: 4px;
+
+}
+
+#marketdetails {
+
+        display: flex;
+        justify-content: space-between;
+        /* margin-bottom: 20px; */
+
+}
+
+#inputnSymbol {
+        display: flex;
+}
+
+#percentageBox {
+        padding-top: 10px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+}
+
+#marketdetailBox {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+}
+
+@media (max-width: 768px) {
+        #trade {
+                flex-direction: column;
+                height: 300vh;
+                /* Change to column on smaller screens */
+        }
+
+        #first {
+                height: 90%;
+                background-color: white;
+                width: 100%;
+
+        }
+
+        #second {
+
+                height: 90%;
+                background-color: white;
+                width: 100%;
+
+        }
+
+
+        #third {
+
+                height: 90%;
+                background-color: white;
+                width: 100%;
+
+
+        }
+
+
+}
+
+
+.responsive-font {
+        font-size: 1.3vw;
+}
+
+@media screen and (min-width: 768px) {
+        .responsive-font {
+                font-size: 1.2vw;
+        }
+}
+
+@media screen and (min-width: 1024px) {
+        .responsive-font {
+                font-size: 1.1em;
+        }
+}

@@ -1,0 +1,57 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+#Profile {
+
+    /* width: 95%; */
+    padding: 20px;
+
+}
+
+
+#profileBox {
+    padding: 30px;
+    border: 1px solid #E8E9EC;
+    /* box-shadow: 1px 2px 3px grey; */
+    background-color: #ffffff;
+    border-radius: 23px;
+
+}
+
+#title {
+    padding: 20px;
+}
+
+#profileUpload {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+
+#sectionBox1 {
+    display: flex;
+    width: 100%;
+}
+
+#sectionfirst {
+
+    padding: 20px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+
+}
